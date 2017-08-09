@@ -17,6 +17,8 @@
     this integer will be placed in a buffer called shellcode
     this is the actual step of storing the shellcode into the memory
     
+    it can also be used to edit/expand the shellcode
+    
 */
 
 #include<stdio.h>
