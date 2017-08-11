@@ -3,10 +3,10 @@
     this program places the provided shellcode into a buffer
     
     example:
+    
+           $ gcc -o shellcodetomem shellcodetomem.c
           
-          gcc -o shellcodetomem shellcodetomem.c
-          
-          shellcodetomem.c \xdf\x25\x3a 
+           $ shellcodetomem.c \xdf\x25\x3a 
     
     \xdf\x25\x3a will be treated as a character argument and characters x d f x 2 5 x 3 a
     will resepctively be placed into the buffer in consecutive memory locations
